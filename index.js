@@ -22,3 +22,11 @@ function increment(a){
 function decrement(a){
   return a--;
 }
+// Parses the input string to an integer:
+function makeInt(string){
+  return parseInt(string, 10);
+}
+// Parses the input string to a float:
+function preserveDecimal(string){
+  return parseFloat(string, 10);
+}
