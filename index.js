@@ -15,12 +15,12 @@ function multiply(a,b){
   return a * b;
 }
 // Increases input by 1:
-function increment(a){
-  return a++;
+function increment(n){
+  return n++;
 }
 // Decreases input by 1:
-function decrement(a){
-  return a--;
+function decrement(n){
+  return n--;
 }
 // Parses the input string to an integer:
 function makeInt(string){
