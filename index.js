@@ -16,11 +16,13 @@ function multiply(a,b){
 }
 // Increases input by 1:
 function increment(n){
-  return (n++);
+  n++;
+  return n;
 }
 // Decreases input by 1:
 function decrement(n){
-  return (n--);
+  n--;
+  return n;
 }
 // Parses the input string to an integer:
 function makeInt(string){
